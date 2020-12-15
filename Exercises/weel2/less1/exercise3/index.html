@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form>
+		<hr>
+		<h1>Application for permission to date my daughter</h1>
+		<p><b>Note:</b> Form is to be completed at least 21 days prior to date</p>
+		<fieldset>
+			<legend>Personal Details</legend>
+			Name: <input type="text" name="Name" placeholder="Enter name here"><br>
+			<br>Address: <input type="text" name="Address" placeholder="Enter address here"><br>
+			<br>Email: <input type="Email" name="Email" placeholder="Enter email here"><br>
+			<br>Phone Number: <input type="number" name="Phone Number" ><br>
+			<br>IQ: <input type="number" name="IQ" placeholder="Enter IQ here">
+			<br>
+			Gender<br><br>
+			<input type="radio" name="Gender">Male<br>
+			<input type="radio" name="Gender">Female<br>
+			<input type="radio" name="Gender">Other<br><br>
+			Date of Proposed Outing: <input type="date" name="Date">
+		</fieldset>
+		<fieldset>
+			Check All That Apply<br>
+			<input type="checkbox" name="Check">I have tatttoos and/or piercings<br>
+			<input type="checkbox" name="Check">I am more than 2 years older than my daughter<br>
+			<input type="checkbox" name="Check">I own a panel van or V8 ute<br>
+			<input type="checkbox" name="Check">I work full-time<br>
+			<input type="checkbox" name="Check">My parents are rich<br>
+			<input type="checkbox" name="Check">Is the date at a well lit public location<br>
+		</fieldset>
+		<fieldset>
+			Political Persuasion: <input list="PP">
+			<datalist id="PP">
+				<option>Left Wing</option>
+				<option>Right Wing</option>
+				<option>Conservatie</option>
+				<option>Nazi</option>
+			</datalist>
+			Education Level Completed: <input list="ELC">
+			<datalist id="ELC">
+				<option>University</option>
+				<option>College</option>
+				<option>High School</option>
+				<option>None</option>
+			</datalist>
+		</fieldset>
+		<fieldset>
+			<legend>Essay Section</legend>
+			<br>In 50 words or more explain why you want to date mu daughter
+			<br><br><input type="text" name="Text" style="width: 400px; height: 60px;" placeholder="Enter Text Here"> 
+			<br>Please upload contact details for 2 references
+			<br><input type="text" name="Text" style="width: 400px; height: 60px;" placeholder="Enter Text Here">
+			<br><br>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here: <input type="file" name="Choosen File" placeholder="Choose File"> No file chosen
+			<br>
+		</fieldset>
+		<input type="submit" name="Send" value="Send your application">
+	</form>
+</body>
+</html>
