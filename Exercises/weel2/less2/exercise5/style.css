@@ -1,0 +1,48 @@
+body{
+	background-color: #F6F3E5;
+}
+.As{
+	width: 60%;
+	padding: 12px 5px;
+	background-color: white;
+	margin: auto;
+}
+.A1,.A2,.A3{
+	width: 70%;
+	height: 75%;
+	text-align: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 25px;
+	padding-bottom:25px;	
+}
+.S1{
+	float: right;
+	width: 30%;
+	height: 150px;
+	background-color: #ffffcc;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	padding-left: 7px;
+	padding-right:7px; 
+}
+.S2{
+	float: right;
+	width: 30%;
+	height: 150px;
+	background-color: #ffeeee;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	padding-left: 7px;
+	padding-right:7px; 
+}
+.S3{
+	float: right;
+	width: 30%;
+	height: 150px;
+	background-color: #CCFFFF;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	padding-left: 7px;
+	padding-right:7px; 
+}

@@ -1,0 +1,12 @@
+div{
+	background-color: lightgray;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	height: 125px;
+	border:0px solid;
+	padding-top: 10px;
+}
+form{
+	text-align: center;
+}
