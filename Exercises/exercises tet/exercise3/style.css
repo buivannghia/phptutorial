@@ -1,0 +1,43 @@
+.container_fluid{
+  		background-color: black;
+  		color: #828282;
+  		height: 350px;
+  	}
+  	#col-sm-4_table1{
+  		margin-left: 70px;
+  		margin-top: 70px;
+  	}
+  	#table2_right{
+  		margin-top: 70px;
+  	}
+  	#table3_right{
+  		margin-top: 70px;
+  	}
+  	#table4_right{
+  		margin-top: 70px;
+  	}
+  	#table5_right{
+  		margin-top: 70px;
+  	}
+  	button{
+  		background-color: #33CCFF;
+  		color: #828282;
+  	}
+  	.container_full{
+  		background-color: #363636;
+  		height: 90px;
+  		color: #828282;
+  	}
+  	input{
+  		background-color: #363636;
+  	}
+  	.button{
+  		background-color:#663399;
+  		width: 150px;
+  		height: 40px;
+  		margin:25px 60px 25px 70px;
+  	}
+  	.col-sm-5_row1{
+  		text-align: center;
+  		margin-top: 30px;
+  	}

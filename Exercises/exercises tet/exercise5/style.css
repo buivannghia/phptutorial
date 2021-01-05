@@ -1,0 +1,38 @@
+.container_full{
+  			color: blue;
+  			border:10px solid #3399FF;
+  			margin:20px 5px 10px 5px;
+  		}
+  		.img1{
+  			width: 100%;
+  			height: 100%;
+  			padding:15px 15px 15px 15px;
+  		}
+  		.button_sign_in{
+  			background-color: #00CC00;
+  			width: 587px;
+  			height: 50px;
+  			color: white;
+  			margin-top: 20px;
+  		}
+  		.button_log_in{
+  			width: 587px;
+  			height: 50px;
+  			margin-top: 15px;
+  		}
+  		input{
+  			margin:0px 15px 15px 5px;
+  		}
+  		 #hr span{
+    	background:#fff;
+    	padding:0px 10px;
+		}
+		#hr{
+    	text-align: center;
+    	border-bottom: 1px solid #000;
+    	line-height: 0.1em;
+    	margin: 35px 10px 35px 0.5px;
+		}
+	.form_right{
+		margin:15px 15px 45px -17px;
+	}

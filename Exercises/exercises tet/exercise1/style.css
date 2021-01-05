@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+.container{
+  margin: auto;
+}
+.row{
+  margin-top: 30px;
+  position: relative;
+}
+.col{
+  width: 1280px;
+  display: inline-block;
+  height: 700px;
+  position: relative;
+}
+.col2{
+  width: 500px;
+  position: relative;
+  height: 400px;
+  margin-top: 69px;
+}
+.tittle{
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  width: 600px;
+  height: 300px;
+  top: 28px;
+  left: 209px;
+}
+.tittle h6{
+  display: inline-block;
+  font-size: 39px;
+  color: #868686;
+  text-align: left;
+  position: relative;
+  font-weight: 100;
+}
+.tittle p{
+  color: #999999;
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: left;
+  position: relative;
+  line-height: 1.9;
+}
+.btn1{
+  color: white;
+  background-color: #59c5e0;
+  width: 358px;
+  height: 42px;
+  position: relative;
+  margin-top: 35px;
+  border-radius: 300px;
+  border: 0;
+  font-weight: 600;
+}
+.tittle img{
+  width: 430px;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+  left: 679px;
+  top: -290px;
+}
+.line{
+  width: 1118px;
+  height: 2px;
+  background-color: #a4a4a4;
+  position: relative;
+  left: 204px;
+}
+.text{
+  font-weight: 600;
+  color: black;
+  font-size: 20px;
+  position: relative;
+}
+.tittle2{
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  width: 600px;
+  height: 300px;
+  top: 28px;
+  left: 705px;
+}
+.tittle2 h6{
+  display: inline-block;
+  font-size: 39px; 
+  color: #868686;
+  text-align: left;
+  position: relative;
+  font-weight: 100;
+}
+.tittle2 p{
+  color: #999999;
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: left;
+  position: relative;
+  line-height: 1.9;
+}
+.btn2{
+  color: white;
+  background-color: #31ee21;
+  width: 220px;
+  height: 42px;
+  position: relative;
+  margin-top: 35px;
+  border-radius: 300px;
+  border: 0;
+  font-weight: 600;
+}
+.tittle2 img{
+  width: 514px;
+  height: 384px;
+  display: inline-block;
+  position: relative;
+  left: -532px;
+  top: -335px;
+}

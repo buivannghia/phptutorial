@@ -1,0 +1,44 @@
+body{
+  			width: 450px;
+  			height:  500px;
+  			border: 10px #f8f9fa;
+        margin:120px 500px 120px 500px;
+  		}
+  	form{
+  		margin: 30px 12px 10px 14px;
+  		width: 500px;
+  	}
+  	.button_fb{
+  		color: white;
+  		background-color: #0033CC;
+  		height: 40px;
+  		width: 130px;
+  	}
+  	.button_google{
+  		color: white;
+  		background-color: #FF0000;
+  		height: 40px;
+  		width: 130px;
+  	}
+  	.button_phone{
+  		color: white;
+  		background-color: #00CC00;
+  		height: 40px;
+  		width: 130px;
+  	}
+  	.email{
+  		background-color: #FFFFCC;
+  	}
+  	.password{
+  		background-color: #FFFFCC;
+  	}
+  	.button_login{
+  		width: 400px;
+  		height: 40px;
+  		background-color:#1E90FF;
+  	}
+  	.button_log_in{
+  		width: 400px;
+  		height: 40px;
+
+  	}
