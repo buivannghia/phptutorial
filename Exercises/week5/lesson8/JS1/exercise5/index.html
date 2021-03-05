@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+</head>
+<style>
+    .container{
+        text-align: center;
+        line-height: 36px;
+    }
+</style>
+<body>
+    <div class="container">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="Email">Email</label>
+        <input type="text" name="email" id="email"><br>
+        <label for="countries">Country</label>
+        <select name="countries" id="countries">
+            <option value="-1">Select-Country</option>
+            <option value="1">Việt Nam</option>
+            <option value="2">Japan</option>
+            <option value="3">USA</option>
+        </select> <br>
+        <button onclick="processInfo()">Send info</button>
+        <p id="result"></p>
+    </div>
+    <script>
+        function processInfo(){
+            var name=document.getElementById("name");
+            var email=document.getElementById("email");
+            var country=document.getElementById("countries").options[countries.selectedIndex];
+            var result=document.getElementById("result");
+            var emailRegex=/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+            if(name.value.trim()==''){
+                result.innerHTML='-Name is invalid <br>';
+                result.style.color='red';
+                name.style.border="1px solid red";
+            }else{
+                name.style.border="1px solid black";
+            }
+            if(emailRegex.test(email.value)==false){
+                result.innerHTML+='-Email is invalid <br>';
+                result.style.color='red';
+                email.style.border="1px solid red";
+            }else{
+                email.style.border="1px solid black";
+            }
+            if(country.value=="-1"){
+                result.innerHTML+='-Country is invalid!!';
+                result.style.color='red';
+                document.getElementById("countries").style.border="1px solid red";
+            }else{
+                document.getElementById("countries").style.border="1px solid black";
+            }
+            if(name.value.trim()!='' && emailRegex.test(email.value)!=false && country.value!="-1"){
+                result.innerHTML='Name: '+name.value+'<br> Email: '+email.value+'<br> Country: '+country.text;
+                result.style.color='black';
+            }
+        }
+    </script>
+</body>
+</html>

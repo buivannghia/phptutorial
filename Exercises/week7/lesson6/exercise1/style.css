@@ -1,0 +1,7 @@
+.border {
+    border: 1px solid;
+    display: table;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}

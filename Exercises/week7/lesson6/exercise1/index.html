@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="border">
+		<form method='post'>
+			<label>1st Number:</label>
+			<input type="text" name="1st_number" size="10px" id="num1"><br><br>
+			<label>2st Number:</label>
+			<input type="text" name="1st_number" size="10px" id="num2"><br><br>
+			<button type="button" name="multiply" onclick="myFunction1()">Multiply</button>
+			<button type="button" name="divide" onclick="myFunction2()" >Divide</button><br>
+			<p class="inline_container">the result is:</p>
+			<p class="inline_container" id="demo"></p>
+		</form>
+		</div>
+	</div>
+	<script>
+		function myFunction1(){
+			var number1 = document.getElementById('num1').value;
+			var number2 = document.getElementById('num2').value;
+			if(isNaN(number1)||isNaN(number2)){
+				alert("value is not number ")
+			}
+			var result = number1 * number2;
+			document.getElementById('demo').innerHTML = result;
+			console.log(result);
+			if(number1>number2){
+				document.getElementById("test").innerHTML = number1;
+			}
+			if(number2>number1){
+				document.getElementById("test").innerHTML = number2;
+			}
+		}
+		function myFunction2(){
+			var number1 = document.getElementById('num1').value;
+			var number2 = document.getElementById('num2').value;
+			if(isNaN(number1)||isNaN(number2)){
+				alert("value is not number ")
+			}
+			var result = number1 / number2;
+			document.getElementById('demo').innerHTML = result;
+			if(number1>number2){
+				document.getElementById("test").innerHTML = number1;
+			}
+			if(number2>number1)
+				document.getElementById("test").innerHTML = number2;
+			}
+		}
+	</script>
+</body>
+</html>

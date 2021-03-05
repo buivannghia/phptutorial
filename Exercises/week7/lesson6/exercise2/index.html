@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+    	<title>Exercise 2</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+	<body>
+	    <p>Nhap so thu nhat:</p>
+		<input type="number" id="1stNum" required><br>
+		<p>Nhap so thu hai:</p>
+		<input type="number" id="2ndNum" required><br><br>
+		<button type="button" onclick="compare()">Check</button>
+		<p>So sanh:</p>
+		<p id="result"></p>
+	</body>
+	<script>
+	    function compare()
+		{
+			var a = document.getElementById('1stNum').value;
+			var b = document.getElementById('2ndNum').value;
+			if (a > b) {
+			    document.getElementById('result').innerHTML = "So lon hon trong hai so la:" + a;
+			} else if (a < b) {
+			    document.getElementById('result').innerHTML = "So lon hon trong hai so la:" + b;
+			} else {
+			    document.getElementById('result').innerHTML = "<h5>Hai so bang nhau!</h5>";
+			}
+		}
+	</script>
+</html>

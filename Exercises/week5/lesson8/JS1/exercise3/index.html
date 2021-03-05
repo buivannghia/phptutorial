@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 3</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Tìm max - min</h3>
+        <label for="firstNumber">Nhập vào số thứ nhất:</label>
+        <input type="text" name="firstNumber" id="firstNumber"> <br><br>
+        <label for="secondNumber">Nhập vào số thứ hai</label>
+        <input type="text" name="secondNumber" id="secondNumber"><br><br>
+        <label for="thirdNumber">Nhập vào số thứ ba:</label>
+        <input type="text" name="thirdNumber" id="thirdNumber"><br><br>
+        <button onclick="findMaxMin()">Hiển thị max - min</button>
+        <p id="result"></p>
+    </div>
+    <script>
+        function findMaxMin(){
+            var firstNumber=parseInt(document.getElementById("firstNumber").value);
+            var secondNumber=parseInt(document.getElementById("secondNumber").value);
+            var thirdNumber=parseInt(document.getElementById("thirdNumber").value);
+            var max,min;
+            if(firstNumber>secondNumber&&firstNumber>thirdNumber){
+                max=firstNumber;
+                if(secondNumber>thirdNumber){
+                    min=thirdNumber;
+                }else{
+                    min=secondNumber;
+                }
+            }else if(secondNumber>firstNumber&&secondNumber>thirdNumber){
+                max=secondNumber;
+                if(firstNumber>thirdNumber){
+                    min=thirdNumber;
+                }else{
+                    min=firstNumber;
+                }
+            }else{
+                max=thirdNumber;
+                if(firstNumber>secondNumber){
+                    min=secondNumber;
+                }else{
+                    min=firstNumber
+                }
+            }
+            document.getElementById("result").innerHTML="max= "+max+"<br>min= "+min;
+        }
+    </script>
+</body>
+</html>
