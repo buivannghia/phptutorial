@@ -1,0 +1,14 @@
+ table, td, tr {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    td {
+        width: 20px;
+        height: 20px;
+        background-color: white;
+    }
+
+    .bg-black {
+        background-color: black;
+    }
